@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimizing Cognitive & Enterprise Systems</title>
+    <style>
+        :root { 
+            --bg: #0b0f14; 
+            --text: #e2e8f0; 
+            --text-muted: #94a3b8;
+            --accent: #0ea5e9; 
+            --card-bg: #151b23; 
+            --border: #1e293b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg); 
+            color: var(--text); 
+            line-height: 1.6; 
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header / Hero Section */
+        header { padding: 120px 24px 80px; text-align: left; max-width: 960px; margin: 0 auto; }
+        h1 { font-size: 3rem; margin-bottom: 24px; line-height: 1.1; letter-spacing: -1px; font-weight: 700; color: #fff; }
+        h1 span { color: var(--accent); }
+        .subtitle { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 40px; max-width: 750px; font-weight: 400; line-height: 1.7; }
+        
+        .cta-button { 
+            display: inline-block; 
+            padding: 16px 32px; 
+            background: var(--accent); 
+            color: #fff; 
+            text-decoration: none; 
+            font-weight: 600; 
+            border-radius: 4px; 
+            transition: background 0.2s; 
+            font-size: 1.1rem;
+        }
+        .cta-button:hover { background: #0284c7; }
+
+        /* Sections */
+        section { padding: 80px 0; border-top: 1px solid var(--border); }
+        h2 { font-size: 2rem; color: #fff; margin-bottom: 32px; letter-spacing: -0.5px; }
+
+        /* Grid & Cards */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+        .card { 
+            background: var(--card-bg); 
+            padding: 32px; 
+            border-radius: 6px; 
+            border: 1px solid var(--border);
+        }
+        .card h3 { font-size: 1.15rem; margin-bottom: 12px; color: #fff; }
+        .card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
+
+        /* Framework Steps */
+        .framework-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+        .framework-step { background: #0d131a; padding: 32px; border-radius: 6px; border-left: 3px solid var(--accent); border-top: 1px solid var(--border); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+        .framework-step h3 { font-size: 1.1rem; color: #fff; margin-bottom: 12px; }
+        .framework-step p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* Authority Section */
+        .authority { background-color: #0d131a; }
+        .authority-content { max-width: 800px; }
+        .authority-text { font-size: 1.05rem; color: var(--text); margin-bottom: 24px; line-height: 1.7; }
+        .brands { 
+            display: flex; 
+            gap: 24px; 
+            margin-top: 32px; 
+            font-weight: 700; 
+            color: #475569; 
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            flex-wrap: wrap;
+        }
+        .brands span { text-transform: uppercase; }
+
+        /* Footer */
+        footer { padding: 80px 24px; text-align: center; border-top: 1px solid var(--border); }
+        footer h2 { margin-bottom: 20px; font-size: 2.2rem; }
+        .footer-info { color: var(--text-muted); margin-bottom: 32px; font-size: 1rem; }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            section { padding: 60px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Hero Section -->
+    <header>
+        <h1>Optimizing Cognitive & Enterprise Systems.</h1>
+        <p class="subtitle">Alleviating system-induced burden. We help teams transform complex interactions with systems, services, and digital environments into seamless, high-performing experiences. Our expertise bridges user research, system design, and digital transformation.</p>
+        <a href="mailto:magdalini@yourdomain.com?subject=Book%20a%20Call" class="cta-button">Book a Call</a>
+    </header>
+
+    <!-- 2. Social Proof / Logo Wall -->
+    <section class="authority">
+        <div class="container authority-content">
+            <h2>Built on Enterprise Complexity</h2>
+            <p class="authority-text">
+                Our methodology is rooted in hard behavioral data, structured mapping, and cognitive ergonomics. 
+                We bring privacy-by-design and rigorous EU research standards to the US market, with a foundation built in highly complex, multinational corporate ecosystems.
+            </p>
+            <div class="brands">
+                <span>Philips</span> • <span>Signify</span> • <span>ASML</span> • <span>Adidas</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. The Core Problem -->
+    <section>
+        <div class="container">
+            <h2>Complex Systems Create Hidden Operational Drag.</h2>
+            <p class="subtitle" style="margin-bottom: 0;">
+                As successful organizations rapidly scale and expand their digital ecosystems, systems naturally grow more complex, introducing hidden cognitive frictions and untapped potential.
+            </p>
+        </div>
+    </section>
+
+    <!-- 4. Core Domains & Solutions -->
+    <section style="background-color: #0d131a;">
+        <div class="container">
+            <h2>Specialized Areas of Impact</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>B2B SaaS & Enterprise Software</h3>
+                    <p>Optimizing data-dense dashboards and complex workflows through strategic Information Architecture to drive user adoption.</p>
+                </div>
+                <div class="card">
+                    <h3>High-Volume E-Commerce</h3>
+                    <p>Structuring seamless category taxonomies, content management, and checkout flows to eliminate drop-offs and prevent revenue leakage.</p>
+                </div>
+                <div class="card">
+                    <h3>Internal HRIS & Operations</h3>
+                    <p>Redesigning internal platforms to streamline the Flow of Operations, enhancing Employee Experience (EX) and reducing operational drag.</p>
+                </div>
+                <div class="card">
+                    <h3>FinTech & HealthTech</h3>
+                    <p>Mitigating critical use errors and compliance risks in high-stakes environments using applied cognitive frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Method & Framework -->
+    <section>
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="framework-grid">
+                <div class="framework-step">
+                    <h3>Cognitive Audit & Discovery</h3>
+                    <p>Expert review of your current systems to pinpoint interaction friction, navigation bottlenecks, and hidden software complexities.</p>
+                </div>
+                <div class="framework-step">
+                    <h3>Deep-Dive Systems & User Research</h3>
+                    <p>Advanced behavioral and data analysis to look beneath the surface, aligning system capabilities directly with human cognitive limits.</p>
+                </div>
+                <div class="framework-step">
+                    <h3>Strategic Architecture & Optimization</h3>
+                    <p>Redesigning workflow logic, information architecture, and operational paths to transform complex systems into seamless corporate assets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. About / The Consultant -->
+    <section style="background-color: #0d131a;">
+        <div class="container authority-content">
+            <h2>Meet Your Consultant</h2>
+            <p class="authority-text">
+                Hi, I’m Magdalini Pantazi-Koumanoudi. With a background in Human Factors and Cognitive Psychology, I bridge the gap between human behavior and complex technological infrastructure. Operating as a 1099 consultant, I help enterprise teams transform their internal and external digital tools into high-performing, frictionless assets.
+            </p>
+        </div>
+    </section>
+
+    <!-- 7. Final Call to Action & Footer -->
+    <footer>
+        <div class="container">
+            <h2>Ready to Eliminate Cognitive Friction in Your Enterprise?</h2>
+            <p class="footer-info">Available for fractional advisory, targeted audits, and long-term 1099 consulting engagements.</p>
+            <a href="mailto:magdalini@yourdomain.com?subject=Schedule%20an%20Introductory%20Consultation" class="cta-button">Schedule an Introductory Consultation</a>
+            <div style="margin-top: 48px; color: var(--text-muted); font-size: 0.9rem;">
+                Based in Greece | Serving USA Clients.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
