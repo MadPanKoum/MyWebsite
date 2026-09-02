@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Systems Optimization | B2B Consulting</title>
+    <style>
+        /* CSS Reset & Variables */
+        :root { 
+            --bg: #0b0f14; 
+            --text: #e2e8f0; 
+            --text-muted: #94a3b8;
+            --accent: #0ea5e9; /* Sharp MedTech Blue */
+            --card-bg: #151b23; 
+            --border: #1e293b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg); 
+            color: var(--text); 
+            line-height: 1.6; 
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header / Hero Section */
+        header { padding: 120px 24px 80px; text-align: left; max-width: 960px; margin: 0 auto; }
+        h1 { font-size: 3.5rem; margin-bottom: 24px; line-height: 1.1; letter-spacing: -1px; font-weight: 700; color: #fff; }
+        h1 span { color: var(--accent); }
+        .subtitle { font-size: 1.25rem; color: var(--text-muted); margin-bottom: 48px; max-width: 700px; font-weight: 400; }
+        
+        .cta-button { 
+            display: inline-block; 
+            padding: 16px 32px; 
+            background: var(--accent); 
+            color: #fff; 
+            text-decoration: none; 
+            font-weight: 600; 
+            border-radius: 4px; 
+            transition: background 0.2s; 
+            font-size: 1.1rem;
+        }
+        .cta-button:hover { background: #0284c7; }
+
+        /* Sections */
+        section { padding: 100px 0; border-top: 1px solid var(--border); }
+        h2 { font-size: 2rem; color: #fff; margin-bottom: 48px; letter-spacing: -0.5px; }
+
+        /* Grid for Services */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; }
+        .card { 
+            background: var(--card-bg); 
+            padding: 40px 32px; 
+            border-radius: 8px; 
+            border-top: 4px solid var(--accent);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 { font-size: 1.25rem; margin-bottom: 16px; color: #fff; }
+        .card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* Authority Section */
+        .authority { background-color: #0d131a; }
+        .authority-content { max-width: 800px; }
+        .authority-text { font-size: 1.1rem; color: var(--text); margin-bottom: 24px; }
+        .brands { 
+            display: flex; 
+            gap: 32px; 
+            margin-top: 40px; 
+            font-weight: 700; 
+            color: #475569; 
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            flex-wrap: wrap;
+        }
+        .brands span { text-transform: uppercase; }
+
+        /* Footer */
+        footer { padding: 80px 24px; text-align: center; border-top: 1px solid var(--border); }
+        footer h2 { margin-bottom: 24px; font-size: 2.5rem; }
+        .footer-info { color: var(--text-muted); margin-bottom: 40px; font-size: 1.1rem; }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            section { padding: 60px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bringing Cognitive & Human-Centric Perspectives to <span>Enterprise Systems.</span></h1>
+        <p class="subtitle">Alleviating system-induced burden. We transform complex medical and corporate environments into safe, intuitive interfaces through applied cognitive psychology.</p>
+        <a href="mailto:magdalini@yourdomain.com?subject=B2B%20Inquiry:%20System%20Burden%20Mapping" class="cta-button">Request the Architecture Deck</a>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Areas of Impact</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Enterprise Software</h3>
+                    <p>Systems where professionals must make decisions, where cognitive overload is systemic.</p>
+                </div>
+                <div class="card">
+                    <h3>E-commerce</h3>
+                    <p>Complex product taxonomies, search filters, and checkout flows, where the slightest friction costs in drop-offs.</p>
+                </div>
+                <div class="card">
+                    <h3>Internal Information Systems & Operations</h3>
+                    <p>Internal enterprise tools and operational systems that employees rely on daily to drive smooth employee experience (EX).</p>
+                </div>
+                <div class="card">
+                    <h3>FinTech & HealthTech</h3>
+                    <p>High-stakes environments where user error carries legal, regulatory, or financial costs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="authority">
+        <div class="container authority-content">
+            <h2>Scientific Rigor. European Standards.</h2>
+            <p class="authority-text">
+                Led by Magdalini Pantazi-Koumanoudi</strong>, holding an M.Sc. in Applied Cognitive Psychology from Leiden University. 
+                Our methodology is rooted in hard behavioral data, structured mapping, and cognitive ergonomics.
+            </p>
+            <p class="authority-text">
+                We bring privacy-by-design and rigorous EU research standards to the US market, with a foundation built in highly complex, multinational corporate ecosystems.
+            </p>
+            <div class="brands">
+                <span>Philips</span> • <span>ASML</span> • <span>Adidas</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2>Stop fighting the interface.<br>Start optimizing the cognition.</h2>
+            <p class="footer-info">Based in San Diego, CA • Operating globally via Independent 1099 B2B</p>
+            <a href="mailto:magdalini@yourdomain.com" class="cta-button">Schedule a Discovery Call</a>
+        </div>
+    </footer>
+
+</body>
+</html>
